@@ -13,7 +13,7 @@ using System.Web;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace PremiumizeNET.Apis;
+namespace PremiumizeNET;
 
 internal class Requests
 {

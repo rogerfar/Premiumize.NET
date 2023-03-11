@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace PremiumizeNET.Apis;
+namespace PremiumizeNET;
 
 public class AccountApi
 {

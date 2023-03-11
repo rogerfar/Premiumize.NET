@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PremiumizeNET.Apis;
+namespace PremiumizeNET;
 
 internal class Store
 {
