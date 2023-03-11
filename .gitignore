@@ -1,4 +1,4 @@
-PremiumizeNET/.vs
+.vs
 **/bin
 **/obj
 PremiumizeNET.Test/secret.txt
