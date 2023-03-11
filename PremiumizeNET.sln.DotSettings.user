@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0001a735_002D53cc_002D4aaa_002Dab20_002D88cbeb74b0ee/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ListFolder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.ListFolder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.ListFolderErr&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.CreateFolder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.RenameFolder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.DeleteFolder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.PasteFolder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.UploadFile&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.Search&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ItemsTest.ListAll&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ItemsTest.Delete&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ItemsTest.Rename&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ItemsTest.Details&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.TransfersTest.CreateMagnet&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.TransfersTest.CreateTorrentFile&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.TransfersTest.CreateDirectDL&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.TransfersTest.List&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.TransfersTest.ClearFinished&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.TransfersTest.Delete&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ZipTest.CreateMagnet&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.CacheTest.Check&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ServicesTest.List&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
