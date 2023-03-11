@@ -1,6 +1,6 @@
 PremiumizeNET/.vs
 **/bin
 **/obj
-PremiumizeNET/PremiumizeNET.Test/secret.txt
-PremiumizeNET/publish.bat
-PremiumizeNET/PremiumizeNET.sln.DotSettings.user
+PremiumizeNET.Test/secret.txt
+publish.bat
+PremiumizeNET.sln.DotSettings.user
