@@ -10,7 +10,7 @@ public class Item
     public String Status { get; set; }
 
     [JsonProperty("content")]
-    public IList<Item> Content { get; set; }
+    public IList<ItemContent> Content { get; set; }
 
     [JsonProperty("name")]
     public String Name { get; set; }

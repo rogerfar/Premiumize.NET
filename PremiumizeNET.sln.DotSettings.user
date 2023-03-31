@@ -22,5 +22,8 @@
     &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ZipTest.CreateMagnet&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.CacheTest.Check&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ServicesTest.List&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.List&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.ZipTest.Generate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B6A0F4E5-B383-4C17-B834-26A24D6B0746::net7.0::PremiumizeNET.Test.HostsTest.ListFiles&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

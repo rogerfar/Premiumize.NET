@@ -18,6 +18,16 @@ public class HostsTest
     }
 
     [Fact]
+    public async Task ListFiles()
+    {
+        var client = new PremiumizeNETClient(Setup.ApiKey);
+
+        var result = await client.Folder.ListAsync("W3mnGcM3IyzGEq0Jr-TMfg");
+
+        Assert.Equal("root", result.Name);
+    }
+
+    [Fact]
     public async Task ListErr()
     {
         var client = new PremiumizeNETClient(Setup.ApiKey);
@@ -87,8 +97,8 @@ public class HostsTest
     {
         var client = new PremiumizeNETClient(Setup.ApiKey);
 
-        var file = await System.IO.File.ReadAllBytesAsync($"Test.pdf");
-        await client.Folder.UploadAsync("jniMy7YoccX-Mb1ea-LhRQ", file, "Test.pdf", "application/pdf");
+        var file = await System.IO.File.ReadAllBytesAsync($"Test.txt");
+        await client.Folder.UploadAsync("jniMy7YoccX-Mb1ea-LhRQ", file, "Test.txt", "text/plain");
 
         Assert.True(true);
     }

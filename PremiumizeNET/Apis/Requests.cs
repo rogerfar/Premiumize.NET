@@ -114,6 +114,10 @@ internal class Requests
         {
             throw new Exception($"Unable to deserialize Premiumize API response to {typeof(T).Name}. Response was: {requestResult}. {ex.Message}", ex);
         }
+        catch (JsonReaderException ex)
+        {
+            throw new Exception($"Unable to deserialize Premiumize API response to {typeof(T).Name}. Response was: {requestResult}. {ex.Message}", ex);
+        }
     }
         
     public async Task<T> GetRequestAsync<T>(String url, Boolean requireAuthentication, IDictionary<String, String> parameters, CancellationToken cancellationToken)
