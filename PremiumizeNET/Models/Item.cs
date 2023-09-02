@@ -76,13 +76,13 @@ public class ItemContent
     public String OpensubtitlesHash { get; set; }
 
     [JsonProperty("resx")]
-    public Int64 Resx { get; set; }
+    public Int64? Resx { get; set; }
 
     [JsonProperty("resy")]
-    public Int64 Resy { get; set; }
+    public Int64? Resy { get; set; }
 
     [JsonProperty("duration")]
-    public Double Duration { get; set; }
+    public Double? Duration { get; set; }
 
     [JsonProperty("virus_scan")]
     public String VirusScan { get; set; }
