@@ -4,7 +4,19 @@ using System.Threading.Tasks;
 
 namespace PremiumizeNET;
 
-public class AccountApi
+public interface IAccountApi
+{
+    /// <summary>
+    ///     Get account info.
+    /// </summary>
+    /// <param name="cancellationToken">
+    ///     A cancellation token that can be used by other objects or threads to receive notice of
+    ///     cancellation.
+    /// </param>
+    Task<User> InfoAsync(CancellationToken cancellationToken = default);
+}
+
+public class AccountApi : IAccountApi
 {
     private readonly Requests _requests;
 
@@ -13,13 +25,7 @@ public class AccountApi
         _requests = new Requests(httpClient, store);
     }
 
-    /// <summary>
-    ///     Get account info.
-    /// </summary>
-    /// <param name="cancellationToken">
-    ///     A cancellation token that can be used by other objects or threads to receive notice of
-    ///     cancellation.
-    /// </param>
+    /// <inheritdoc />
     public async Task<User> InfoAsync(CancellationToken cancellationToken = default)
     {
         return await _requests.GetRequestAsync<User>("account/info", true, null, cancellationToken);

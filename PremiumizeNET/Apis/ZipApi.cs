@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace PremiumizeNET;
 
-public class ZipApi
+public interface IZipApi
 {
-    private readonly Requests _requests;
-
-    internal ZipApi(HttpClient httpClient, Store store)
-    {
-        _requests = new Requests(httpClient, store);
-    }
-
     /// <summary>
     ///     Check a zip.
     /// </summary>
@@ -24,6 +17,19 @@ public class ZipApi
     ///     A cancellation token that can be used by other objects or threads to receive notice of
     ///     cancellation.
     /// </param>
+    Task<String> Generate(IList<String> files, IList<String> folders, CancellationToken cancellationToken = default);
+}
+
+public class ZipApi : IZipApi
+{
+    private readonly Requests _requests;
+
+    internal ZipApi(HttpClient httpClient, Store store)
+    {
+        _requests = new Requests(httpClient, store);
+    }
+
+    /// <inheritdoc />
     public async Task<String> Generate(IList<String> files, IList<String> folders, CancellationToken cancellationToken = default)
     {
         var data = new List<KeyValuePair<String, String>>();

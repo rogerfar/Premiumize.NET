@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace PremiumizeNET;
 
-public class CacheApi
+public interface ICacheApi
 {
-    private readonly Requests _requests;
-
-    internal CacheApi(HttpClient httpClient, Store store)
-    {
-        _requests = new Requests(httpClient, store);
-    }
-
     /// <summary>
     ///     Check supported links availability.
     /// </summary>
@@ -23,6 +16,19 @@ public class CacheApi
     ///     A cancellation token that can be used by other objects or threads to receive notice of
     ///     cancellation.
     /// </param>
+    Task<CacheResult> Check(IList<String> items, CancellationToken cancellationToken = default);
+}
+
+public class CacheApi : ICacheApi
+{
+    private readonly Requests _requests;
+
+    internal CacheApi(HttpClient httpClient, Store store)
+    {
+        _requests = new Requests(httpClient, store);
+    }
+
+    /// <inheritdoc />
     public async Task<CacheResult> Check(IList<String> items, CancellationToken cancellationToken = default)
     {
         var data = new List<KeyValuePair<String, String>>();
