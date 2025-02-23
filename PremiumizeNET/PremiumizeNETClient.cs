@@ -3,11 +3,22 @@ using System.Net.Http;
 
 namespace PremiumizeNET;
 
+public interface IPremiumizeNETClient
+{
+    AccountApi Account { get; }
+    CacheApi Cache { get; }
+    FolderApi Folder { get; }
+    ItemApi Items { get; set; }
+    ServicesApi Services { get; set; }
+    TransferApi Transfers { get; set; }
+    ZipApi Zip { get; set; }
+}
+
 /// <summary>
 ///     The PremiumizeNET consumed the premiumize.me API.
 ///     Documentation about the API can be found here: https://app.swaggerhub.com/apis-docs/premiumize.me/api/1.7.1
 /// </summary>
-public class PremiumizeNETClient
+public class PremiumizeNETClient : IPremiumizeNETClient
 {
     private readonly Store _store = new();
 
