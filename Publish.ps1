@@ -12,9 +12,9 @@ if (Test-Path $csprojPath) {
     
     $versionNode = $csprojContent.Project.PropertyGroup.Version
 	    
-    if ($versionNode -and $versionNode -match "2\.1\.(\d+)") {
+    if ($versionNode -and $versionNode -match "1\.0\.(\d+)") {
         $newVersionNumber = [int]$matches[1] + 1
-        $newVersion = "2.1.$newVersionNumber"
+        $newVersion = "1.0.$newVersionNumber"
         
         $csprojContent.Project.PropertyGroup.Version = $newVersion
         

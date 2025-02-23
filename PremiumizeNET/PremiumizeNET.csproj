@@ -1,5 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -12,14 +11,12 @@
     <RepositoryUrl>https://github.com/rogerfar/Premiumize.NET</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>Premiumize All-Debrid</PackageTags>
-    <Version>1.0.4</Version>
+    <Version>1.0.7</Version>
     <AssemblyVersion>1.0.4</AssemblyVersion>
     <FileVersion>1.0.4</FileVersion>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
-
 </Project>
